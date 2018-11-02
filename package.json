@@ -1,0 +1,26 @@
+{
+  "name": "new-railscasts",
+  "displayName": "New Railscasts",
+  "description": "New Railscasts theme for vscode",
+  "version": "1.0.1",
+  "publisher": "carakan",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carakan/new-railscasts-vscode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NewRailscasts",
+        "uiTheme": "vs-dark",
+        "path": "./themes/new-railscasts-color-theme.json"
+      }
+    ]
+  }
+}

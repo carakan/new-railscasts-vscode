@@ -75,7 +75,9 @@
         "variable.language.this",
         // Markdown: punctuation, such as ##, **, _, etc...
         "text.html.markdown meta.paragraph punctuation",
-        "text.html.markdown markup.heading punctuation"
+        "text.html.markdown markup.heading punctuation",
+        // Elixir
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -108,7 +110,9 @@
         "meta.selector entity",
         "meta.selector entity",
         "entity.name.tag.css",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        // Elixir
+        "keyword.operator.other.elixir"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -134,6 +138,20 @@
       "settings": {
         "fontStyle": "underline",
         "foreground": "#C0C05C"
+      }
+    },
+    
+    {
+      "name": "Sky blue bold",
+      "scope": [
+        // Ruby
+        "constant.language.symbol.ruby",
+        // Elixir
+        "constant.other.symbol.elixir"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#6D9CBE"
       }
     },
     {

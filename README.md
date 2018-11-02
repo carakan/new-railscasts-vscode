@@ -1,8 +1,8 @@
-# [NewRailscasts](https://marketplace.visualstudio.com/items?itemName=mksafi.trailscasts)
+# [NewRailscasts](https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts)
 
 a new Railscasts
 
-![](https://raw.githubusercontent.com/msafi/xvsc/master/trailscasts/screenshot.png)
+![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/screenshot.png)
 
 ## To discuss stuff
 

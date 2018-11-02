@@ -36,7 +36,7 @@
         "meta.property-value constant"
       ],
       "settings": {
-        "foreground": "#98CDCD"
+        "foreground": "#FEF9E1"
       }
     },
     {
@@ -84,6 +84,17 @@
       }
     },
     {
+      "name": "Orange, italic",
+      "scope": [
+        // HTML
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#F47454"
+      }
+    },
+    {
       "name": "White and underlined",
       "scope": [
         "variable.parameter"
@@ -119,6 +130,16 @@
       }
     },
     {
+      "name": "Yellow, bold-italic",
+      "scope": [
+        "entity.name.function.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic,bold",
+        "foreground": "#FFC66D"
+      }
+    },
+    {
       "name": "White",
       "scope": [
         "meta.brace.round",
@@ -140,12 +161,15 @@
         "foreground": "#C0C05C"
       }
     },
-    
     {
       "name": "Sky blue bold",
       "scope": [
+        //JSON
+        "support.type.property-name.json",
+        "meta.object-literal.key.js",
         // Ruby
         "constant.language.symbol.ruby",
+        "punctuation.definition.constant.ruby",
         // Elixir
         "constant.other.symbol.elixir"
       ],
@@ -180,6 +204,16 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#BC7F23"
+      }
+    },
+    {
+      "name": "orange-yellow, bold",
+      "scope": [
+        "punctuation.separator.method.ruby"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#D38E39"
       }
     }
   ]

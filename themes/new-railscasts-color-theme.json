@@ -10,7 +10,6 @@
     "editorBracketMatch.background": "#3344F09E",
     "editorBracketMatch.border": "#3344F09E",
     "editorRuler.foreground": "#FFFFFF24",
-    "editor.background": "#090909",
     "editor.lineHighlightBackground": "#202020",
     "editorSuggestWidget.background": "#000000D6",
     "editorHoverWidget.background": "#000000D6",
@@ -38,6 +37,16 @@
       ],
       "settings": {
         "foreground": "#98CDCD"
+      }
+    },
+    {
+      "name": "Green Light",
+      "scope": [
+        // JavaScript: numbers
+        "constant.numeric",
+      ],
+      "settings": {
+        "foreground": "#bde04c"
       }
     },
     {
@@ -69,7 +78,7 @@
         "text.html.markdown markup.heading punctuation"
       ],
       "settings": {
-        "foreground": "#FF9945"
+        "foreground": "#F47454"
       }
     },
     {
@@ -79,7 +88,7 @@
       ],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#FFFFFF"
+        "foreground": "#FEF9E1"
       }
     },
     {
@@ -102,7 +111,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#E8BF6A"
+        "foreground": "#FFC66D"
       }
     },
     {
@@ -113,7 +122,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#FEF9E1"
       }
     },
     {
@@ -141,7 +150,7 @@
         "storage.type.class.jsdoc"
       ],
       "settings": {
-        "foreground": "#D0D0FF"
+        "foreground": "#D7B0FC"
       }
     },
     {

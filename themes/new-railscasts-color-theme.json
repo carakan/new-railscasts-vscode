@@ -109,6 +109,8 @@
       "scope": [
         // HTML: tag
         "meta.tag",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
         // JSX/TSX: classes
         "meta.tag support",
         // JavaScript: function call
@@ -136,7 +138,7 @@
         "entity.name.function.js"
       ],
       "settings": {
-        "fontStyle": ["italic", "bold"],
+        "fontStyle": "italic bold",
         "foreground": "#FFC66D"
       }
     },
@@ -188,7 +190,9 @@
     {
       "name": "Offwhite italic",
       "scope": [
-        "meta.decorator.ts"
+        "meta.decorator.ts",
+        // Elixir
+        "variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",

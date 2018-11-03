@@ -1,6 +1,7 @@
 # [NewRailscasts](https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts)
 
-a new Railscasts
+
+A (new) color scheme based on the RailsCasts TextMate theme.
 
 ![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/screenshot.png)
 

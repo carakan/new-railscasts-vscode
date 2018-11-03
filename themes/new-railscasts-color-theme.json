@@ -92,7 +92,8 @@
       "name": "Orange, italic",
       "scope": [
         // HTML
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.html entity.other.attribute-name.generic.html"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -128,6 +129,7 @@
       "scope": [
         // HTML: tag
         "meta.tag",
+        "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         // JSX/TSX: classes
@@ -153,8 +155,8 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "meta.method.declaration.js",
-        "meta.method.declaration.js"
+        "meta.definition.method.js entity.name.function.js",
+        "meta.definition.method.ts entity.name.function.ts"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -228,7 +230,7 @@
         "meta.decorator.ts",
         // Elixir
         "variable.other.readwrite.module.elixir",
-        "punctuation.definition.variable.elixir variable.other.readwrite.module.elixir"
+        "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",

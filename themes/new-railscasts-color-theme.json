@@ -15,7 +15,8 @@
     "editorHoverWidget.background": "#000000D6",
     "titleBar.activeBackground": "#0A0A0A",
     "titleBar.inactiveBackground": "#2C2C2C",
-    "editorGroupHeader.tabsBackground": "#252526"
+    "editorGroupHeader.tabsBackground": "#252526",
+    "selection.background": "#072f95"
   },
   "tokenColors": [
     {
@@ -94,8 +95,8 @@
       "name": "Orange, italic",
       "scope": [
         // HTML
-        "entity.other.attribute-name.html",
-        "entity.other.attribute-name.generic.html"
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -157,8 +158,8 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "entity.name.function.js",
-        "entity.name.function.ts"
+        "source.js meta.definition.method.js entity.name.function.js",
+        "source.ts meta.definition.method.ts entity.name.function.ts"
       ],
       "settings": {
         "fontStyle": "italic bold",

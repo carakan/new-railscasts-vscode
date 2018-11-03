@@ -43,7 +43,7 @@
       "name": "Green Light",
       "scope": [
         // JavaScript: numbers
-        "constant.numeric",
+        "constant.numeric"
       ],
       "settings": {
         "foreground": "#bde04c"
@@ -56,7 +56,10 @@
         // JavaScript: numbers
         "constant.numeric",
         // Markdown: stuff between tick marks, i.e. `stuff`
-        "markup.inline.raw"
+        "markup.inline.raw",
+        // Elixir
+        "punctuation.definition.string.begin.elixir",
+        "punctuation.definition.string.end.elixir"
       ],
       "settings": {
         "foreground": "#74D155"
@@ -134,8 +137,8 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "entity.name.function.ts",
-        "entity.name.function.js"
+        "meta.method.declaration.js",
+        "meta.method.declaration.js"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -213,7 +216,14 @@
     {
       "name": "orange-yellow, bold",
       "scope": [
-        "punctuation.separator.method.ruby"
+        "punctuation.separator.method.ruby",
+        "punctuation.section.array.begin.ruby",
+        "punctuation.section.array.end.ruby",
+        "punctuation.section.scope.begin.ruby",
+        "punctuation.section.scope.end.ruby",
+        // Elixir
+        "punctuation.section.array.elixir",
+        "punctuation.section.scope.elixir"
       ],
       "settings": {
         "fontStyle": "bold",

@@ -132,10 +132,11 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "entity.name.function.ts"
+        "entity.name.function.ts",
+        "entity.name.function.js"
       ],
       "settings": {
-        "fontStyle": "italic,bold",
+        "fontStyle": ["italic", "bold"],
         "foreground": "#FFC66D"
       }
     },
@@ -148,17 +149,6 @@
       ],
       "settings": {
         "foreground": "#FEF9E1"
-      }
-    },
-    {
-      "name": "Light green, underline",
-      "scope": [
-        "meta.definition.property entity.name.function",
-        "meta.definition.method entity.name.function"
-      ],
-      "settings": {
-        "fontStyle": "underline",
-        "foreground": "#C0C05C"
       }
     },
     {
@@ -192,6 +182,16 @@
         "storage.type.class.jsdoc"
       ],
       "settings": {
+        "foreground": "#D7B0FC"
+      }
+    },
+    {
+      "name": "Offwhite italic",
+      "scope": [
+        "meta.decorator.ts"
+      ],
+      "settings": {
+        "fontStyle": "bold italic",
         "foreground": "#D7B0FC"
       }
     },

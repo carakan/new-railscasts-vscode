@@ -80,7 +80,9 @@
         "text.html.markdown meta.paragraph punctuation",
         "text.html.markdown markup.heading punctuation",
         // Elixir
-        "variable.other.constant.elixir"
+        "variable.other.constant.elixir",
+        // Ruby
+        "support.class.ruby"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -94,6 +96,20 @@
       ],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#F47454"
+      }
+    },
+    {
+      "name": "Orange, bold",
+      "scope": [
+        // Ruby
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        // Elixir
+        "keyword.control.module.elixir"
+      ],
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#F47454"
       }
     },
@@ -166,7 +182,10 @@
         "constant.language.symbol.ruby",
         "punctuation.definition.constant.ruby",
         // Elixir
-        "constant.other.symbol.elixir"
+        "constant.other.symbol.elixir",
+        // CSS
+        "punctuation.separator.key-value.css",
+        "support.type.property-name.css"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -184,18 +203,32 @@
         "support",
         // JavaScript: jsDoc @param
         "punctuation.definition.block.tag.jsdoc",
-        "storage.type.class.jsdoc"
+        "storage.type.class.jsdoc",
+        // RUBY
+        "variable.other.readwrite.instance.ruby"
       ],
       "settings": {
         "foreground": "#D7B0FC"
       }
     },
     {
-      "name": "Offwhite italic",
+      "name": "Purple light italic",
+      "scope": [
+        // CSS
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#D7B0FC"
+      }
+    },
+    {
+      "name": "Purple light bold-italic",
       "scope": [
         "meta.decorator.ts",
         // Elixir
-        "variable.other.readwrite.module.elixir"
+        "variable.other.readwrite.module.elixir",
+        "punctuation.definition.variable.elixir variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",

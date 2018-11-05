@@ -109,6 +109,7 @@
         // Ruby
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
+        "keyword.control.module.ruby",
         // Elixir
         "keyword.control.module.elixir"
       ],
@@ -181,6 +182,7 @@
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         // Ruby
         "punctuation.definition.constant.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
         //JS/TS
         "punctuation.separator.key-value.ts",
         "punctuation.separator.key-value.js"
@@ -198,6 +200,7 @@
         // Ruby
         "constant.other.symbol.hashkey.ruby",
         "constant.language.symbol.ruby",
+        "constant.other.symbol.ruby",
         "constant.language.symbol.hashkey.ruby",
         // Elixir
         "constant.other.symbol.elixir",
@@ -226,7 +229,8 @@
         "punctuation.definition.block.tag.jsdoc",
         "storage.type.class.jsdoc",
         // RUBY
-        "variable.other.readwrite.instance.ruby"
+        "variable.other.readwrite.instance.ruby",
+        "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby"
       ],
       "settings": {
         "foreground": "#D7B0FC"

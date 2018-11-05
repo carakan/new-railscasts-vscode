@@ -29,12 +29,10 @@
     {
       "name": "Cyan",
       "scope": [
-        "variable",
-        // Markdown: link
         "markup.underline",
-        // CSS property value
+        "meta.property-value constant",
         "meta.property-value support",
-        "meta.property-value constant"
+        "variable"
       ],
       "settings": {
         "foreground": "#FEF9E1"
@@ -44,7 +42,6 @@
       "name": "Green Light",
       "scope": [
         "constant.numeric",
-        // Css
         "constant.numeric.css"
       ],
       "settings": {
@@ -54,14 +51,11 @@
     {
       "name": "Green",
       "scope": [
-        "string",
-        // JavaScript: numbers
         "constant.numeric",
-        // Markdown: stuff between tick marks, i.e. `stuff`
         "markup.inline.raw",
-        // Elixir
         "punctuation.definition.string.begin.elixir",
-        "punctuation.definition.string.end.elixir"
+        "punctuation.definition.string.end.elixir",
+        "string"
       ],
       "settings": {
         "foreground": "#74D155"
@@ -70,22 +64,15 @@
     {
       "name": "Orange",
       "scope": [
-        // JavaScript: return, export, yield
-        "keyword",
-        // JavaScript: let, var, const
-        "storage",
-        // JavaScript: true, false
         "constant.language",
-        // JavaScript: this
-        "variable.language.this",
-        // Markdown: punctuation, such as ##, **, _, etc...
-        "text.html.markdown meta.paragraph punctuation",
-        "text.html.markdown markup.heading punctuation",
-        // Elixir
-        "variable.other.constant.elixir",
-        // Ruby
+        "entity.name.type.class.ruby",
+        "keyword",
+        "storage",
         "support.class.ruby",
-        "entity.name.type.class.ruby"
+        "text.html.markdown markup.heading punctuation",
+        "text.html.markdown meta.paragraph punctuation",
+        "variable.language.this",
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -94,9 +81,8 @@
     {
       "name": "Orange, italic",
       "scope": [
-        // HTML
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "text.html.basic entity.other.attribute-name.html"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -106,12 +92,10 @@
     {
       "name": "Orange, bold",
       "scope": [
-        // Ruby
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
-        "keyword.control.module.ruby",
-        // Elixir
-        "keyword.control.module.elixir"
+        "keyword.control.module.elixir",
+        "keyword.control.module.ruby"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -121,26 +105,19 @@
     {
       "name": "Yellow",
       "scope": [
-        // HTML: tag
-        "meta.tag",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        // JSX/TSX: classes
-        "meta.tag support",
-        // JavaScript: function call
-        "meta.function-call",
-        // JavaScript: function declarations/expressions
         "entity.name.function",
-        // JavaScript: built-in functions
-        "support.function",
-        // CSS selector
-        "meta.selector entity",
-        "meta.selector entity",
         "entity.name.tag.css",
         "entity.other.attribute-name",
-        // Elixir
-        "keyword.operator.other.elixir"
+        "keyword.operator.other.elixir",
+        "meta.function-call",
+        "meta.selector entity",
+        "meta.selector entity",
+        "meta.tag support",
+        "meta.tag",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.html",
+        "support.function"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -149,8 +126,9 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "meta.decorator.ts punctuation.decorator.ts",
         "meta.decorator.js punctuation.decorator.js",
+        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+        "meta.decorator.ts punctuation.decorator.ts",
         "meta.definition.method.js entity.name.function.js",
         "meta.definition.method.ts entity.name.function.ts"
       ],
@@ -173,19 +151,15 @@
     {
       "name": "Sky blue bold",
       "scope": [
-        "punctuation.separator.key-value.scss",
-        "punctuation.separator.key-value.css",
-        // Json
-        "punctuation.support.type.property-name.begin.json.comments",
-        "punctuation.support.type.property-name.end.json.comments",
-        // Elixir
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
-        // Ruby
-        "punctuation.definition.constant.ruby",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        //JS/TS
+        "punctuation.definition.constant.ruby",
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.js",
+        "punctuation.separator.key-value.scss",
         "punctuation.separator.key-value.ts",
-        "punctuation.separator.key-value.js"
+        "punctuation.support.type.property-name.begin.json.comments",
+        "punctuation.support.type.property-name.end.json.comments"
       ],
       "settings": {
         "foreground": "#6D9CBE"
@@ -194,21 +168,16 @@
     {
       "name": "Sky blue bold",
       "scope": [
-        //JSON
-        "support.type.property-name.json",
-        "meta.object-literal.key.js",
-        // Ruby
-        "constant.other.symbol.hashkey.ruby",
-        "constant.language.symbol.ruby",
-        "constant.other.symbol.ruby",
         "constant.language.symbol.hashkey.ruby",
-        // Elixir
-        "constant.other.symbol.elixir",
+        "constant.language.symbol.ruby",
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
-        // CSS
+        "constant.other.symbol.elixir",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.ruby",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
         "support.type.property-name.css",
-        // JS/TS
-        "meta.object-literal.key.ts"
+        "support.type.property-name.json"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -218,19 +187,15 @@
     {
       "name": "Offwhite",
       "scope": [
-        "meta",
-        "variable.parameter",
-        // JavaScript: object properties
-        "variable.other.property",
         "constant",
-        // JavaScript: built-in methods
-        "support",
-        // JavaScript: jsDoc @param
+        "meta",
         "punctuation.definition.block.tag.jsdoc",
         "storage.type.class.jsdoc",
-        // RUBY
+        "support",
+        "variable.other.property",
+        "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
         "variable.other.readwrite.instance.ruby",
-        "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby"
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#D7B0FC"
@@ -239,9 +204,7 @@
     {
       "name": "Purple light italic",
       "scope": [
-        // CSS
         "entity.other.attribute-name.class.css",
-        // js
         "storage.type.js",
         "storage.type.ts"
       ],
@@ -253,10 +216,8 @@
     {
       "name": "Purple light bold-italic",
       "scope": [
-        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
-        // Elixir
-        "variable.other.readwrite.module.elixir",
-        "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+        "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
+        "variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",
@@ -277,14 +238,13 @@
     {
       "name": "orange-yellow, bold",
       "scope": [
-        "punctuation.separator.method.ruby",
         "punctuation.section.array.begin.ruby",
+        "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",
         "punctuation.section.scope.begin.ruby",
+        "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
-        // Elixir
-        "punctuation.section.array.elixir",
-        "punctuation.section.scope.elixir"
+        "punctuation.separator.method.ruby"
       ],
       "settings": {
         "fontStyle": "bold",

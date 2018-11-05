@@ -118,16 +118,6 @@
       }
     },
     {
-      "name": "White and underlined",
-      "scope": [
-        "variable.parameter"
-      ],
-      "settings": {
-        "fontStyle": "underline",
-        "foreground": "#FEF9E1"
-      }
-    },
-    {
       "name": "Yellow",
       "scope": [
         // HTML: tag
@@ -180,15 +170,31 @@
     {
       "name": "Sky blue bold",
       "scope": [
+        // Json
+        "punctuation.support.type.property-name.begin.json.comments",
+        "punctuation.support.type.property-name.end.json.comments",
+        // Elixir
+        "constant.other.symbol.elixir punctuation.definition.constant.elixir",
+        // Ruby
+        "punctuation.definition.constant.ruby"
+      ],
+      "settings": {
+        "foreground": "#6D9CBE"
+      }
+    },
+    {
+      "name": "Sky blue bold",
+      "scope": [
         //JSON
         "support.type.property-name.json",
         "meta.object-literal.key.js",
         // Ruby
+        "constant.other.symbol.hashkey.ruby",
         "constant.language.symbol.ruby",
-        "punctuation.definition.constant.ruby",
         "constant.language.symbol.hashkey.ruby",
         // Elixir
         "constant.other.symbol.elixir",
+        "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         // CSS
         "punctuation.separator.key-value.css",
         "support.type.property-name.css"
@@ -202,6 +208,7 @@
       "name": "Offwhite",
       "scope": [
         "meta",
+        "variable.parameter",
         // JavaScript: object properties
         "variable.other.property",
         "constant",

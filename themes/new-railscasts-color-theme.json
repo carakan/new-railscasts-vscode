@@ -148,8 +148,10 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "source.js meta.definition.method.js entity.name.function.js",
-        "source.ts meta.definition.method.ts entity.name.function.ts"
+        "meta.decorator.ts punctuation.decorator.ts",
+        "meta.decorator.js punctuation.decorator.js",
+        "meta.definition.method.js entity.name.function.js",
+        "meta.definition.method.ts entity.name.function.ts"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -247,7 +249,7 @@
     {
       "name": "Purple light bold-italic",
       "scope": [
-        "meta.decorator.ts",
+        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
         // Elixir
         "variable.other.readwrite.module.elixir",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"

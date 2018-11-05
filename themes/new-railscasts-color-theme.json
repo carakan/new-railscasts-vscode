@@ -64,6 +64,7 @@
     {
       "name": "Orange",
       "scope": [
+        "meta.class.ts",
         "constant.language",
         "entity.name.type.class.ruby",
         "keyword",
@@ -95,7 +96,9 @@
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
         "keyword.control.module.elixir",
-        "keyword.control.module.ruby"
+        "keyword.control.module.ruby",
+        "storage.type.class.ts",
+        "keyword.control.export.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -177,7 +180,8 @@
         "meta.object-literal.key.js",
         "meta.object-literal.key.ts",
         "support.type.property-name.css",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "meta.definition.property.ts variable.object.property.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -206,7 +210,8 @@
       "scope": [
         "entity.other.attribute-name.class.css",
         "storage.type.js",
-        "storage.type.ts"
+        "storage.type.ts",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "fontStyle": "italic",

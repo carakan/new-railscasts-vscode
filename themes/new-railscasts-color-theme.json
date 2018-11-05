@@ -170,13 +170,18 @@
     {
       "name": "Sky blue bold",
       "scope": [
+        "punctuation.separator.key-value.scss",
+        "punctuation.separator.key-value.css",
         // Json
         "punctuation.support.type.property-name.begin.json.comments",
         "punctuation.support.type.property-name.end.json.comments",
         // Elixir
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         // Ruby
-        "punctuation.definition.constant.ruby"
+        "punctuation.definition.constant.ruby",
+        //JS/TS
+        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value.js"
       ],
       "settings": {
         "foreground": "#6D9CBE"
@@ -196,8 +201,9 @@
         "constant.other.symbol.elixir",
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         // CSS
-        "punctuation.separator.key-value.css",
-        "support.type.property-name.css"
+        "support.type.property-name.css",
+        // JS/TS
+        "meta.object-literal.key.ts"
       ],
       "settings": {
         "fontStyle": "bold",

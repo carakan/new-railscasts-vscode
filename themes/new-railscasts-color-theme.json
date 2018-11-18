@@ -32,6 +32,7 @@
         "markup.underline",
         "meta.property-value constant",
         "meta.property-value support",
+        "text.html.markdown",
         "variable"
       ],
       "settings": {
@@ -117,6 +118,7 @@
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
+        "markup.fenced_code.block.markdown",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",

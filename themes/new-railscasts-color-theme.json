@@ -32,7 +32,7 @@
         "markup.underline",
         "meta.property-value constant",
         "meta.property-value support",
-        "text.html.markdown",
+        "text.html.markdown meta.paragraph.markdown",
         "variable"
       ],
       "settings": {
@@ -74,7 +74,8 @@
         "text.html.markdown markup.heading punctuation",
         "text.html.markdown meta.paragraph punctuation",
         "variable.language.this",
-        "variable.other.constant.elixir"
+        "variable.other.constant.elixir",
+        "punctuation.definition.tag.haml"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -84,7 +85,8 @@
       "name": "Orange, italic",
       "scope": [
         "text.html.basic entity.other.attribute-name",
-        "text.html.basic entity.other.attribute-name.html"
+        "text.html.basic entity.other.attribute-name.html",
+        "entity.other.attribute-name.class"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -194,7 +196,6 @@
       "name": "Offwhite",
       "scope": [
         "constant",
-        "meta",
         "punctuation.definition.block.tag.jsdoc",
         "storage.type.class.jsdoc",
         "support",
@@ -235,7 +236,8 @@
       "name": "Brown, italic",
       "scope": [
         "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "punctuation.section.comment.haml"
       ],
       "settings": {
         "fontStyle": "italic",

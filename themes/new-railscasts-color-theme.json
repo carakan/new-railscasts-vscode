@@ -27,7 +27,7 @@
       }
     },
     {
-      "name": "Cyan",
+      "name": "White",
       "scope": [
         "markup.underline",
         "meta.property-value constant",

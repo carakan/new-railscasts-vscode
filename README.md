@@ -5,7 +5,7 @@
 
 # [NewRailscasts](https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts)
 
-A (new) color scheme based on the RailsCasts TextMate theme and it's solarized with a beatiful contrast.
+A (new) color scheme based on the RailsCasts TextMate theme and its solarized with a beautiful contrast.
 
 ![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/screenshot.png)
 

@@ -50,10 +50,21 @@
         "heading.3.markdown entity.name.section.markdown",
         "heading.4.markdown entity.name.section.markdown",
         "heading.5.markdown entity.name.section.markdown",
-        "heading.6.markdown entity.name.section.markdown"
+        "heading.6.markdown entity.name.section.markdown",
+        "markup.bold.markdown"
       ],
       "settings": {
         "fontStyle": "bold",
+        "foreground": "#FEF9E1"
+      }
+    },
+    {
+      "name": "White, italic",
+      "scope": [
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic",
         "foreground": "#FEF9E1"
       }
     },
@@ -119,6 +130,7 @@
         "keyword.control.export.ts",
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
+        "punctuation.definition.heading.markdown",
         "storage.type.class.ts"
       ],
       "settings": {

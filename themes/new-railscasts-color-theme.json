@@ -114,6 +114,8 @@
       "name": "Orange, italic",
       "scope": [
         "entity.other.attribute-name.class",
+        "entity.other.attribute-name.generic.html",
+        "entity.other.attribute-name.html",
         "text.html.basic entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html"
       ],

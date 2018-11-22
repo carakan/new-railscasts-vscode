@@ -30,12 +30,30 @@
       "name": "White",
       "scope": [
         "markup.underline",
+        "meta.brace.round",
+        "meta.jsx.children",
         "meta.property-value constant",
         "meta.property-value support",
+        "punctuation",
         "text.html.markdown meta.paragraph.markdown",
         "variable"
       ],
       "settings": {
+        "foreground": "#FEF9E1"
+      }
+    },
+    {
+      "name": "White, bold",
+      "scope": [
+        "heading.1.markdown entity.name.section.markdown",
+        "heading.2.markdown entity.name.section.markdown",
+        "heading.3.markdown entity.name.section.markdown",
+        "heading.4.markdown entity.name.section.markdown",
+        "heading.5.markdown entity.name.section.markdown",
+        "heading.6.markdown entity.name.section.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#FEF9E1"
       }
     },
@@ -114,12 +132,6 @@
         "entity.name.function",
         "entity.name.tag.css",
         "entity.other.attribute-name",
-        "heading.1.markdown entity.name.section.markdown",
-        "heading.2.markdown entity.name.section.markdown",
-        "heading.3.markdown entity.name.section.markdown",
-        "heading.4.markdown entity.name.section.markdown",
-        "heading.5.markdown entity.name.section.markdown",
-        "heading.6.markdown entity.name.section.markdown",
         "keyword.operator.other.elixir",
         "markup.fenced_code.block.markdown",
         "meta.function-call",
@@ -148,17 +160,6 @@
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#FFC66D"
-      }
-    },
-    {
-      "name": "White",
-      "scope": [
-        "meta.brace.round",
-        "meta.jsx.children",
-        "punctuation"
-      ],
-      "settings": {
-        "foreground": "#FEF9E1"
       }
     },
     {

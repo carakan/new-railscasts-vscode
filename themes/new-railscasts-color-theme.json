@@ -2,21 +2,21 @@
   "name": "NewRailscasts",
   "type": "dark",
   "colors": {
-    "editor.foreground": "#FEF9E1",
-    "editor.background": "#202020",
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb",
-    "statusBar.background": "#252526",
+    "editor.background": "#202020",
+    "editor.foreground": "#FEF9E1",
+    "editor.lineHighlightBackground": "#202020",
     "editorBracketMatch.background": "#3344F09E",
     "editorBracketMatch.border": "#3344F09E",
-    "editorRuler.foreground": "#FFFFFF24",
-    "editor.lineHighlightBackground": "#202020",
-    "editorSuggestWidget.background": "#000000D6",
-    "editorHoverWidget.background": "#000000D6",
-    "titleBar.activeBackground": "#0A0A0A",
-    "titleBar.inactiveBackground": "#2C2C2C",
     "editorGroupHeader.tabsBackground": "#252526",
-    "selection.background": "#072f95"
+    "editorHoverWidget.background": "#000000D6",
+    "editorRuler.foreground": "#FFFFFF24",
+    "editorSuggestWidget.background": "#000000D6",
+    "selection.background": "#072f95",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#252526",
+    "titleBar.activeBackground": "#0A0A0A",
+    "titleBar.inactiveBackground": "#2C2C2C"
   },
   "tokenColors": [
     {
@@ -65,17 +65,17 @@
     {
       "name": "Orange",
       "scope": [
-        "meta.class.ts",
         "constant.language",
         "entity.name.type.class.ruby",
         "keyword",
+        "meta.class.ts",
+        "punctuation.definition.tag.haml",
         "storage",
         "support.class.ruby",
         "text.html.markdown markup.heading punctuation",
         "text.html.markdown meta.paragraph punctuation",
         "variable.language.this",
-        "variable.other.constant.elixir",
-        "punctuation.definition.tag.haml"
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -84,9 +84,9 @@
     {
       "name": "Orange, italic",
       "scope": [
+        "entity.other.attribute-name.class",
         "text.html.basic entity.other.attribute-name",
-        "text.html.basic entity.other.attribute-name.html",
-        "entity.other.attribute-name.class"
+        "text.html.basic entity.other.attribute-name.html"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -98,10 +98,10 @@
       "scope": [
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
+        "keyword.control.export.ts",
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
-        "storage.type.class.ts",
-        "keyword.control.export.ts"
+        "storage.type.class.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -114,13 +114,19 @@
         "entity.name.function",
         "entity.name.tag.css",
         "entity.other.attribute-name",
+        "heading.1.markdown entity.name.section.markdown",
+        "heading.2.markdown entity.name.section.markdown",
+        "heading.3.markdown entity.name.section.markdown",
+        "heading.4.markdown entity.name.section.markdown",
+        "heading.5.markdown entity.name.section.markdown",
+        "heading.6.markdown entity.name.section.markdown",
         "keyword.operator.other.elixir",
+        "markup.fenced_code.block.markdown",
         "meta.function-call",
         "meta.selector entity",
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
-        "markup.fenced_code.block.markdown",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",

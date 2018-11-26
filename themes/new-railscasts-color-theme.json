@@ -85,6 +85,8 @@
         "markup.inline.raw",
         "punctuation.definition.string.begin.elixir",
         "punctuation.definition.string.end.elixir",
+        "string.quoted.single.ruby",
+        "string.quoted.double.html",
         "string"
       ],
       "settings": {
@@ -217,6 +219,7 @@
       "name": "Offwhite",
       "scope": [
         "constant",
+        "entity.name.tag.yaml",
         "punctuation.definition.block.tag.jsdoc",
         "storage.type.class.jsdoc",
         "support",
@@ -268,6 +271,8 @@
     {
       "name": "orange-yellow, bold",
       "scope": [
+        "punctuation.section.embedded.end.erb",
+        "punctuation.section.embedded.begin.erb",
         "punctuation.section.array.begin.ruby",
         "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",

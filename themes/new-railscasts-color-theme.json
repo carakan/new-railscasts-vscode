@@ -35,6 +35,7 @@
         "meta.property-value constant",
         "meta.property-value support",
         "punctuation",
+        "string.unquoted.plain.out.yaml",
         "text.html.markdown meta.paragraph.markdown",
         "variable"
       ],
@@ -85,9 +86,9 @@
         "markup.inline.raw",
         "punctuation.definition.string.begin.elixir",
         "punctuation.definition.string.end.elixir",
-        "string.quoted.single.ruby",
+        "string",
         "string.quoted.double.html",
-        "string"
+        "string.quoted.single.ruby"
       ],
       "settings": {
         "foreground": "#74D155"
@@ -155,6 +156,7 @@
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
+        "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",
@@ -204,12 +206,12 @@
         "constant.other.symbol.elixir",
         "constant.other.symbol.hashkey.ruby",
         "constant.other.symbol.ruby",
+        "meta.definition.property.ts variable.object.property.ts",
         "meta.object-literal.key.js",
         "meta.object-literal.key.ts",
+        "punctuation.definition.constant.hashkey.ruby",
         "support.type.property-name.css",
-        "support.type.property-name.json",
-        "meta.definition.property.ts variable.object.property.ts",
-        "punctuation.definition.constant.hashkey.ruby"
+        "support.type.property-name.json"
       ],
       "settings": {
         "fontStyle": "bold",

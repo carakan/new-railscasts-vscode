@@ -179,7 +179,7 @@
       }
     },
     {
-      "name": "Sky blue bold",
+      "name": "Sky blue",
       "scope": [
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
@@ -208,7 +208,8 @@
         "meta.object-literal.key.ts",
         "support.type.property-name.css",
         "support.type.property-name.json",
-        "meta.definition.property.ts variable.object.property.ts"
+        "meta.definition.property.ts variable.object.property.ts",
+        "punctuation.definition.constant.hashkey.ruby"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -279,7 +280,8 @@
         "punctuation.section.scope.begin.ruby",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
-        "punctuation.separator.method.ruby"
+        "punctuation.separator.method.ruby",
+        "punctuation.section.embedded.elixir"
       ],
       "settings": {
         "fontStyle": "bold",

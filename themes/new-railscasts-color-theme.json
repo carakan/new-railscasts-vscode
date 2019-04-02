@@ -3,6 +3,8 @@
   "type": "dark",
   "colors": {
     "activityBarBadge.background": "#007acc",
+    "badge.background": "#FEF9E1",
+    "badge.foreground": "#744210",
     "editor.background": "#202020",
     "editor.foreground": "#FEF9E1",
     "editor.lineHighlightBackground": "#202020",
@@ -12,21 +14,13 @@
     "editorHoverWidget.background": "#000000D6",
     "editorRuler.foreground": "#FFFFFF24",
     "editorSuggestWidget.background": "#000000D6",
-    "selection.background": "#072f95",
-    "sideBarTitle.foreground": "#bbbbbb",
-    "statusBar.background": "#252526",
-    "titleBar.activeBackground": "#0A0A0A",
-    "titleBar.inactiveBackground": "#2C2C2C",
     "scrollbar.shadow": "#091621",
     "scrollbarSlider.activeBackground": "#805ad5",
     "scrollbarSlider.background": "#6b46c1",
     "scrollbarSlider.hoverBackground": "#805ad5",
-    "badge.foreground": "#744210",
-    "badge.background": "#FEF9E1",
-    "terminal.background":"#212121",
-    "terminal.foreground":"#f3f5f5",
-    "terminalCursor.background":"#EEFFFF",
-    "terminalCursor.foreground":"#EEFFFF",
+    "selection.background": "#072f95",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#252526",
     "terminal.ansiBlack":"#212121",
     "terminal.ansiBlue":"#82AAFF",
     "terminal.ansiBrightBlack":"#4A4A4A",
@@ -42,7 +36,13 @@
     "terminal.ansiMagenta":"#C792EA",
     "terminal.ansiRed":"#F07178",
     "terminal.ansiWhite":"#f3f5f5",
-    "terminal.ansiYellow":"#FFCB6B"
+    "terminal.ansiYellow":"#FFCB6B",
+    "terminal.background":"#212121",
+    "terminal.foreground":"#f3f5f5",
+    "terminalCursor.background":"#EEFFFF",
+    "terminalCursor.foreground":"#EEFFFF",
+    "titleBar.activeBackground": "#0A0A0A",
+    "titleBar.inactiveBackground": "#2C2C2C"
   },
   "tokenColors": [
     {
@@ -113,13 +113,13 @@
         "punctuation.definition.string.begin.elixir",
         "punctuation.definition.string.end.elixir",
         "string",
-        "string.quoted.double.html",
-        "string.quoted.single.ruby",
-        "string.unquoted.plain.out.yaml",
-        "string.quoted.single",
         "string.quoted.double",
+        "string.quoted.double.html",
+        "string.quoted.double.json",
+        "string.quoted.single",
+        "string.quoted.single.ruby",
         "string.quoted.template",
-        "string.quoted.double.json"
+        "string.unquoted.plain.out.yaml"
       ],
       "settings": {
         "foreground": "#74D155"
@@ -182,6 +182,7 @@
         "entity.other.attribute-name",
         "keyword.operator.other.elixir",
         "markup.fenced_code.block.markdown",
+        "meta.directive.vue",
         "meta.function-call",
         "meta.selector entity",
         "meta.selector entity",
@@ -191,8 +192,7 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",
-        "support.function",
-        "meta.directive.vue"
+        "support.function"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -205,7 +205,10 @@
         "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
         "meta.decorator.ts punctuation.decorator.ts",
         "meta.definition.method.js entity.name.function.js",
-        "meta.definition.method.ts entity.name.function.ts"
+        "meta.definition.method.ts entity.name.function.ts",
+        "source.vue entity.name.tag.script.html",
+        "source.vue entity.name.tag.style.html",
+        "source.vue entity.name.tag.template.html"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -306,16 +309,16 @@
     {
       "name": "orange-yellow, bold",
       "scope": [
-        "punctuation.section.embedded.end.erb",
-        "punctuation.section.embedded.begin.erb",
         "punctuation.section.array.begin.ruby",
         "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",
+        "punctuation.section.embedded.begin.erb",
+        "punctuation.section.embedded.elixir",
+        "punctuation.section.embedded.end.erb",
         "punctuation.section.scope.begin.ruby",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
-        "punctuation.separator.method.ruby",
-        "punctuation.section.embedded.elixir"
+        "punctuation.separator.method.ruby"
       ],
       "settings": {
         "fontStyle": "bold",

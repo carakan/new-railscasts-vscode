@@ -10,7 +10,7 @@ A (new) color scheme based on the RailsCasts TextMate theme and its solarized wi
 ## 🚀 Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for **NewRailscasts** theme published by MatiasOlivera
+2. Search for **NewRailscasts** theme published by _Carlos Ramos_
 3. Click **Install** to install it.
 4. Code > Preferences > Color Theme > **NewRailscasts**
 5. Happy coding! 🔥🔥🔥

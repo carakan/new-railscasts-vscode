@@ -132,6 +132,7 @@
         "entity.name.type.class.ruby",
         "keyword",
         "meta.class.ts",
+        "meta.property-value.css",
         "punctuation.definition.tag.haml",
         "storage",
         "support.class.ruby",

@@ -314,7 +314,7 @@
         "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",
         "punctuation.section.embedded.begin.erb",
-        "punctuation.section.embedded.elixir",
+        "punctuation.section.embedded",
         "punctuation.section.embedded.end.erb",
         "punctuation.section.scope.begin.ruby",
         "punctuation.section.scope.elixir",

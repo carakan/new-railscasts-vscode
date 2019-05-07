@@ -16,8 +16,8 @@
     "editorSuggestWidget.background": "#000000D6",
     "scrollbar.shadow": "#091621",
     "scrollbarSlider.activeBackground": "#50187A",
-    "scrollbarSlider.background": "#40125F",
-    "scrollbarSlider.hoverBackground": "#50187A",
+    "scrollbarSlider.background": "#340E4E",
+    "scrollbarSlider.hoverBackground": "#40125F",
     "selection.background": "#072f95",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#252526",
@@ -143,10 +143,10 @@
     {
       "name": "Orange, italic",
       "scope": [
-        "entity.other.attribute-name",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.generic.html",
         "entity.other.attribute-name.html",
+        "entity.other.attribute-name.localname.xml",
         "text.html.basic entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html"
       ],
@@ -189,6 +189,7 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",
+        "punctuation.definition.tag.xml",
         "support.function"
       ],
       "settings": {
@@ -218,7 +219,6 @@
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
         "punctuation.definition.constant.ruby",
-        "punctuation.definition.tag.xml",
         "punctuation.separator.key-value.css",
         "punctuation.separator.key-value.js",
         "punctuation.separator.key-value.scss",

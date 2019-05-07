@@ -19,19 +19,19 @@ A (new) color scheme based on the RailsCasts TextMate theme and its solarized wi
 
 ## 🌌 Support
 
-| Description  | Extensions          | Support |
-|--------------|---------------------|---------|
-| CSS          | .css                | ✅       |
-| Ruby + Rails | .rb, .erb           | ✅       |
-| HTML         | .html               | ✅       |
-| Javascript   | .js                 | ✅       |
-| JSON         | .json               | ✅       |
-| Markdown     | .md                 | ✅       |
-| Elixir       | .ex, exs            | ✅       |
-| Typescript   | .ts                 | ✅       |
-| Vue          | .vue                | ✅       |
-| XML          | .xml                | ✅       |
-| YAML         | .yml                | ✅       |
+| Description  | Extensions | Support |
+| ------------ | ---------- | ------- |
+| CSS          | .css       | ✅      |
+| Ruby + Rails | .rb, .erb  | ✅      |
+| HTML         | .html      | ✅      |
+| Javascript   | .js        | ✅      |
+| JSON         | .json      | ✅      |
+| Markdown     | .md        | ✅      |
+| Elixir       | .ex, exs   | ✅      |
+| Typescript   | .ts        | ✅      |
+| Vue          | .vue       | ✅      |
+| XML          | .xml       | ✅      |
+| YAML         | .yml       | ✅      |
 
 If you want support for another `language` / `library` / `framework`, please open an issue and let me know
 

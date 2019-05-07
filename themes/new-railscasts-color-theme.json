@@ -2,45 +2,45 @@
   "name": "NewRailscasts",
   "type": "dark",
   "colors": {
-    "activityBarBadge.background": "#007acc",
+    "activityBarBadge.background": "#0065A9",
     "badge.background": "#FEF9E1",
     "badge.foreground": "#744210",
     "editor.background": "#202020",
     "editor.foreground": "#FEF9E1",
     "editor.lineHighlightBackground": "#202020",
-    "editorBracketMatch.background": "#3344F09E",
-    "editorBracketMatch.border": "#3344F09E",
+    "editorBracketMatch.background": "#212DA39E",
+    "editorBracketMatch.border": "#212DA39E",
     "editorGroupHeader.tabsBackground": "#252526",
     "editorHoverWidget.background": "#000000D6",
     "editorRuler.foreground": "#FFFFFF24",
     "editorSuggestWidget.background": "#000000D6",
     "scrollbar.shadow": "#091621",
-    "scrollbarSlider.activeBackground": "#805ad5",
-    "scrollbarSlider.background": "#6b46c1",
-    "scrollbarSlider.hoverBackground": "#805ad5",
+    "scrollbarSlider.activeBackground": "#50187A",
+    "scrollbarSlider.background": "#40125F",
+    "scrollbarSlider.hoverBackground": "#50187A",
     "selection.background": "#072f95",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#252526",
-    "terminal.ansiBlack":"#212121",
-    "terminal.ansiBlue":"#82AAFF",
-    "terminal.ansiBrightBlack":"#4A4A4A",
-    "terminal.ansiBrightBlue":"#82AAFF",
-    "terminal.ansiBrightCyan":"#89DDFF",
-    "terminal.ansiBrightGreen":"#C3E88D",
-    "terminal.ansiBrightMagenta":"#C792EA",
-    "terminal.ansiBrightRed":"#F07178",
-    "terminal.ansiBrightWhite":"#FFFFFF",
-    "terminal.ansiBrightYellow":"#FFCB6B",
-    "terminal.ansiCyan":"#89DDFF",
-    "terminal.ansiGreen":"#C3E88D",
-    "terminal.ansiMagenta":"#C792EA",
-    "terminal.ansiRed":"#F07178",
-    "terminal.ansiWhite":"#f3f5f5",
-    "terminal.ansiYellow":"#FFCB6B",
-    "terminal.background":"#212121",
-    "terminal.foreground":"#f3f5f5",
-    "terminalCursor.background":"#EEFFFF",
-    "terminalCursor.foreground":"#EEFFFF",
+    "terminal.ansiBlack": "#212121",
+    "terminal.ansiBlue": "#82AAFF",
+    "terminal.ansiBrightBlack": "#4A4A4A",
+    "terminal.ansiBrightBlue": "#82AAFF",
+    "terminal.ansiBrightCyan": "#89DDFF",
+    "terminal.ansiBrightGreen": "#C3E88D",
+    "terminal.ansiBrightMagenta": "#C792EA",
+    "terminal.ansiBrightRed": "#F07178",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFCB6B",
+    "terminal.ansiCyan": "#89DDFF",
+    "terminal.ansiGreen": "#C3E88D",
+    "terminal.ansiMagenta": "#C792EA",
+    "terminal.ansiRed": "#F07178",
+    "terminal.ansiWhite": "#f3f5f5",
+    "terminal.ansiYellow": "#FFCB6B",
+    "terminal.background": "#212121",
+    "terminal.foreground": "#f3f5f5",
+    "terminalCursor.background": "#EEFFFF",
+    "terminalCursor.foreground": "#EEFFFF",
     "titleBar.activeBackground": "#0A0A0A",
     "titleBar.inactiveBackground": "#2C2C2C"
   },
@@ -87,9 +87,7 @@
     },
     {
       "name": "White, italic",
-      "scope": [
-        "markup.italic.markdown"
-      ],
+      "scope": ["markup.italic.markdown"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FEF9E1"
@@ -97,10 +95,7 @@
     },
     {
       "name": "Green Light",
-      "scope": [
-        "constant.numeric",
-        "constant.numeric.css"
-      ],
+      "scope": ["constant.numeric", "constant.numeric.css"],
       "settings": {
         "foreground": "#bde04c"
       }
@@ -148,6 +143,7 @@
     {
       "name": "Orange, italic",
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.generic.html",
         "entity.other.attribute-name.html",
@@ -222,6 +218,7 @@
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
         "punctuation.definition.constant.ruby",
+        "punctuation.definition.tag.xml",
         "punctuation.separator.key-value.css",
         "punctuation.separator.key-value.js",
         "punctuation.separator.key-value.scss",
@@ -297,11 +294,7 @@
     },
     {
       "name": "Brown, italic",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "punctuation.section.comment.haml"
-      ],
+      "scope": ["comment", "punctuation.definition.comment", "punctuation.section.comment.haml"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#BC7F23"

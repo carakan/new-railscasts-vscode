@@ -147,6 +147,9 @@
         "entity.other.attribute-name.generic.html",
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.namespace.xml",
+        "punctuation.separator.namespace.xml",
+        "entity.other.attribute-name.xml",
         "text.html.basic entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html"
       ],

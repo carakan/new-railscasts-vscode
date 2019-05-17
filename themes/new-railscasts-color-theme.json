@@ -268,7 +268,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#D7B0FC"
+        "foreground": "#C19CE7"
       }
     },
     {
@@ -281,18 +281,21 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D7B0FC"
+        "foreground": "#C19CE7"
       }
     },
     {
       "name": "Purple light bold-italic",
       "scope": [
+        "constant.language.boolean",
+        "variable.language.self",
+        "variable.language.this.js",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
         "variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#D7B0FC"
+        "foreground": "#C19CE7"
       }
     },
     {

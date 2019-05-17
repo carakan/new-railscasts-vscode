@@ -95,7 +95,7 @@
     },
     {
       "name": "Green Light",
-      "scope": ["constant.numeric", "constant.numeric.css", "constant.numeric.ruby", "constant.numeric.elixir"],
+      "scope": ["constant.numeric", "constant.numeric.css keyword.other.unit"],
       "settings": {
         "foreground": "#B0D43F"
       }
@@ -179,7 +179,6 @@
         "entity.name.function",
         "entity.name.tag.css",
         "entity.other.attribute-name",
-        "keyword.operator.other.elixir",
         "markup.fenced_code.block.markdown",
         "meta.directive.vue",
         "meta.function-call",
@@ -187,10 +186,11 @@
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
-        "keyword.control support.constant.handlebars",
+        "support.constant.handlebars keyword.control",
         "entity.other.attribute-name.id",
         "entity.name.tag.style",
         "variable.parameter.handlebars",
+        "punctuation.section.function.elixir",
         "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
@@ -205,7 +205,6 @@
     {
       "name": "Yellow Bold",
       "scope": [
-        "support.constant.handlebars",
         "punctuation.separator.inheritance"
       ],
       "settings": {
@@ -334,9 +333,13 @@
         "punctuation.section.embedded.end.ruby",
         "punctuation.section.scope.begin.ruby",
         "punctuation.separator.key-value",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "keyword.operator.other.elixir",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
         "punctuation.separator.method.ruby",
+        "support.constant.handlebars",
         "meta.function.block.start.handlebars",
         "meta.function.block.end.handlebars"
       ],

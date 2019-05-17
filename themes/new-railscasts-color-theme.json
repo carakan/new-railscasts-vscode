@@ -133,7 +133,7 @@
         "text.html.markdown markup.heading punctuation",
         "text.html.markdown meta.paragraph punctuation",
         "variable.language.this",
-        "variable.other.constant.elixir"
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#F47454"
@@ -205,8 +205,8 @@
     {
       "name": "Yellow Bold",
       "scope": [
-        "punctuation.separator.key-value",
-        "support.constant.handlebars"
+        "support.constant.handlebars",
+        "punctuation.separator.inheritance"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -333,6 +333,7 @@
         "punctuation.section.embedded.begin.ruby",
         "punctuation.section.embedded.end.ruby",
         "punctuation.section.scope.begin.ruby",
+        "punctuation.separator.key-value",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
         "punctuation.separator.method.ruby",

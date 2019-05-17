@@ -188,6 +188,10 @@
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
+        "keyword.control support.constant.handlebars",
+        "entity.other.attribute-name.id",
+        "entity.name.tag.style",
+        "variable.parameter.handlebars",
         "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
@@ -196,6 +200,16 @@
         "support.function"
       ],
       "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Yellow Bold",
+      "scope": [
+        "support.constant.handlebars"
+      ],
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#FFC66D"
       }
     },
@@ -321,7 +335,9 @@
         "punctuation.section.scope.begin.ruby",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
-        "punctuation.separator.method.ruby"
+        "punctuation.separator.method.ruby",
+        "meta.function.block.start.handlebars",
+        "meta.function.block.end.handlebars"
       ],
       "settings": {
         "fontStyle": "bold",

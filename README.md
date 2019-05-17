@@ -32,6 +32,7 @@ A (new) color scheme based on the RailsCasts TextMate theme and its solarized wi
 | Vue          | .vue       | ✅      |
 | XML          | .xml       | ✅      |
 | YAML         | .yml       | ✅      |
+| Ember        | .hbs       | ✅      |
 
 If you want support for another `language` / `library` / `framework`, please open an issue and let me know
 

@@ -95,18 +95,16 @@
     },
     {
       "name": "Green Light",
-      "scope": ["constant.numeric", "constant.numeric.css"],
+      "scope": ["constant.numeric", "constant.numeric.css", "constant.numeric.ruby", "constant.numeric.elixir"],
       "settings": {
-        "foreground": "#bde04c"
+        "foreground": "#B0D43F"
       }
     },
     {
       "name": "Green",
       "scope": [
-        "constant.numeric",
         "markup.inline.raw",
-        "punctuation.definition.string.begin.elixir",
-        "punctuation.definition.string.end.elixir",
+        "punctuation.definition.string",
         "string",
         "string.quoted.double",
         "string.quoted.double.html",
@@ -114,6 +112,7 @@
         "string.quoted.single",
         "string.quoted.single.ruby",
         "string.quoted.template",
+        "string.quoted.single",
         "string.unquoted.plain.out.yaml"
       ],
       "settings": {
@@ -177,6 +176,7 @@
     {
       "name": "Yellow",
       "scope": [
+        "punctuation.separator.key-value",
         "entity.name.function",
         "entity.name.tag.css",
         "entity.other.attribute-name",
@@ -277,7 +277,8 @@
         "entity.other.attribute-name.class.css",
         "storage.type.js",
         "storage.type.ts",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "constant.language.nil.ruby"
       ],
       "settings": {
         "fontStyle": "italic",

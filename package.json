@@ -1,11 +1,16 @@
 {
   "name": "new-railscasts",
   "displayName": "New Railscasts",
-  "description": "New Railscasts theme for vscode",
+  "description": "A (new) Railscasts theme for vscode",
   "version": "1.0.39",
   "publisher": "carakan",
   "engines": {
     "vscode": "^1.15.0"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
   },
   "repository": {
     "type": "git",

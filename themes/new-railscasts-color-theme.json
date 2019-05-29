@@ -346,8 +346,8 @@
         "support.constant.handlebars",
         "meta.function.block.start.handlebars",
         "meta.function.block.end.handlebars",
-        "meta.jsx.children.js punctuation.section.embedded",
-        "meta.jsx.children.js punctuation.definition.block.js"
+        "meta.tag.js punctuation.section.embedded",
+        "meta.tag.js punctuation.definition.block.js"
       ],
       "settings": {
         "fontStyle": "bold",

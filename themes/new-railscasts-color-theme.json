@@ -199,7 +199,8 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.xml",
         "punctuation.definition.tag",
-        "support.function"
+        "support.function",
+        "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -345,7 +346,8 @@
         "support.constant.handlebars",
         "meta.function.block.start.handlebars",
         "meta.function.block.end.handlebars",
-        "meta.jsx.children.js meta.embedded.expression.js"
+        "meta.jsx.children.js punctuation.section.embedded",
+        "meta.jsx.children.js punctuation.definition.block.js"
       ],
       "settings": {
         "fontStyle": "bold",

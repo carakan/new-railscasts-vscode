@@ -110,9 +110,9 @@
         "string.quoted.double.html",
         "string.quoted.double.json",
         "string.quoted.single",
+        "string.quoted.single",
         "string.quoted.single.ruby",
         "string.quoted.template",
-        "string.quoted.single",
         "string.unquoted.plain.out.yaml"
       ],
       "settings": {
@@ -145,10 +145,10 @@
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.generic.html",
         "entity.other.attribute-name.html",
+        "entity.other.attribute-name.js",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.namespace.xml",
         "entity.other.attribute-name.xml",
-        "entity.other.attribute-name.js",
         "punctuation.separator.namespace.xml",
         "text.html.basic entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html"
@@ -161,14 +161,14 @@
     {
       "name": "Orange, bold",
       "scope": [
+        "entity.name.type.module.elixir",
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
         "keyword.control.export.ts",
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
         "punctuation.definition.heading.markdown",
-        "storage.type.class.ts",
-        "entity.name.type.module.elixir"
+        "storage.type.class.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -180,27 +180,27 @@
       "scope": [
         "entity.name.function",
         "entity.name.tag.css",
+        "entity.name.tag.style",
         "entity.other.attribute-name",
+        "entity.other.attribute-name.id",
         "markup.fenced_code.block.markdown",
         "meta.directive.vue",
         "meta.function-call",
+        "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js",
+        "meta.property-value.css",
         "meta.selector entity",
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
-        "meta.property-value.css",
-        "support.constant.handlebars keyword.control",
-        "entity.other.attribute-name.id",
-        "entity.name.tag.style",
-        "punctuation.section.function.elixir",
         "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.xml",
-        "punctuation.definition.tag",
-        "support.function",
-        "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js"
+        "punctuation.section.function.elixir",
+        "support.constant.handlebars keyword.control",
+        "support.function"
       ],
       "settings": {
         "foreground": "#FFC66D"

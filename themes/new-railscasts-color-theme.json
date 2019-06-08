@@ -129,7 +129,6 @@
         "punctuation.definition.tag.haml",
         "storage",
         "support.class.ruby",
-        "support.constant.property-value.css",
         "text.html.markdown markup.heading punctuation",
         "text.html.markdown meta.paragraph punctuation",
         "variable.language.this",
@@ -273,7 +272,7 @@
       }
     },
     {
-      "name": "Offwhite",
+      "name": "Purple light",
       "scope": [
         "constant",
         "entity.name.tag.yaml",
@@ -296,7 +295,8 @@
         "storage.type.js",
         "storage.type.ts",
         "support.type.primitive.ts",
-        "constant.language.nil.ruby"
+        "constant.language.nil.ruby",
+        "keyword.other.important.css"
       ],
       "settings": {
         "fontStyle": "italic",

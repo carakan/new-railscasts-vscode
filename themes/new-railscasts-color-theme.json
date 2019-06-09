@@ -120,6 +120,16 @@
       }
     },
     {
+      "name": "Green italic",
+      "scope": [
+        "variable.parameter.url.css"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#74D155"
+      }
+    },
+    {
       "name": "Orange",
       "scope": [
         "constant.language",
@@ -262,6 +272,7 @@
         "meta.object-literal.key.js",
         "meta.object-literal.key.ts",
         "meta.property-name.css",
+        "support.type.vendored.property-name.css",
         "punctuation.definition.constant.hashkey.ruby",
         "support.type.property-name.css",
         "support.type.property-name.json"

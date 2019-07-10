@@ -254,7 +254,8 @@
         "punctuation.separator.key-value.scss",
         "punctuation.separator.key-value.ts",
         "punctuation.support.type.property-name.begin.json.comments",
-        "punctuation.support.type.property-name.end.json.comments"
+        "punctuation.support.type.property-name.end.json.comments",
+        "variable.other.readwrite.js"
       ],
       "settings": {
         "foreground": "#6D9CBE"
@@ -333,7 +334,8 @@
     {
       "name": "Purple light bold",
       "scope": [
-        "meta.template.expression.js punctuation.definition.template-expression.js"
+        "meta.template.expression.js punctuation.definition.template-expression.begin.js",
+        "meta.template.expression.js punctuation.definition.template-expression.end.js"
       ],
       "settings": {
         "fontStyle": "bold",

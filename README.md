@@ -15,7 +15,15 @@ A (new) color scheme based on the RailsCasts TextMate theme and its solarized wi
 4. Code > Preferences > Color Theme > **NewRailscasts**
 5. Happy coding! 🔥🔥🔥
 
-![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/screenshot.png)
+## Samples
+
+### Ruby
+
+![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/ruby-code.png)
+
+### Javascript
+
+![](https://raw.githubusercontent.com/carakan/new-railscasts-vscode/master/js-code.png)
 
 ## 🌌 Support
 

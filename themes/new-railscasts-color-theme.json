@@ -331,6 +331,16 @@
       }
     },
     {
+      "name": "Purple light bold",
+      "scope": [
+        "meta.template.expression.js punctuation.definition.template-expression.js"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#C19CE7"
+      }
+    },
+    {
       "name": "Brown, italic",
       "scope": ["comment", "punctuation.definition.comment", "punctuation.section.comment.haml"],
       "settings": {
@@ -348,7 +358,8 @@
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
-        "meta.tag.js punctuation.definition.block.js",
+        "source.js punctuation.definition.block.js",
+        "source.js meta.brace.round.js",
         "meta.tag.js punctuation.section.embedded",
         "punctuation.section.array.begin.ruby",
         "punctuation.section.array.elixir",

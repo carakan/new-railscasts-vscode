@@ -159,6 +159,7 @@
         "entity.other.attribute-name.namespace.xml",
         "entity.other.attribute-name.xml",
         "punctuation.separator.namespace.xml",
+        "storage.type.function.js",
         "text.html.basic entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html"
       ],
@@ -321,7 +322,8 @@
         "variable.language.self",
         "variable.language.this.js",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
-        "variable.other.readwrite.module.elixir"
+        "variable.other.readwrite.module.elixir",
+        "entity.other.attribute-name.id.css"
       ],
       "settings": {
         "fontStyle": "bold italic",

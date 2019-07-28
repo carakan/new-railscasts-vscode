@@ -219,7 +219,9 @@
     {
       "name": "Yellow Bold",
       "scope": [
-        "punctuation.separator.inheritance"
+        "storage.type.function.arrow.ts",
+        "punctuation.separator.inheritance",
+        "punctuation.terminator.statement.ts"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -320,6 +322,7 @@
       "name": "Purple light bold-italic",
       "scope": [
         "constant.language.boolean",
+        "keyword.operator.new.ts",
         "variable.language.self",
         "variable.language.this.js",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
@@ -356,6 +359,7 @@
         "entity.other.attribute-name.class.css punctuation.definition.entity.css",
         "entity.other.attribute-name.id.css punctuation.definition.entity.css",
         "keyword.operator.other.elixir",
+        "meta.brace.square.ts",
         "meta.function.block.end.handlebars support.constant.handlebars",
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
@@ -363,6 +367,7 @@
         "source.js punctuation.definition.block.js",
         "source.js meta.brace.round.js",
         "meta.tag.js punctuation.section.embedded",
+        "punctuation.definition.block.ts",
         "punctuation.section.array.begin.ruby",
         "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",
@@ -375,7 +380,8 @@
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
         "punctuation.separator.key-value",
-        "punctuation.separator.method.ruby"
+        "punctuation.separator.method.ruby",
+        "punctuation.definition.parameters.ts"
       ],
       "settings": {
         "fontStyle": "bold",

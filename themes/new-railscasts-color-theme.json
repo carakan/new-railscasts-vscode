@@ -198,6 +198,7 @@
         "meta.function-call",
         "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js",
         "meta.property-value.css",
+        "variable.other.property.ts",
         "meta.selector entity",
         "meta.selector entity",
         "meta.tag support",
@@ -325,6 +326,8 @@
         "keyword.operator.new.ts",
         "variable.language.self",
         "variable.language.this.js",
+        "variable.language.this.ts",
+        "keyword.operator.new.ts",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
         "variable.other.readwrite.module.elixir",
         "entity.other.attribute-name.id.css"
@@ -343,6 +346,16 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#C19CE7"
+      }
+    },
+    {
+      "name": "Purple-red light italic",
+      "scope": [
+        "storage.modifier.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FFAAE7"
       }
     },
     {
@@ -381,7 +394,8 @@
         "punctuation.section.scope.end.ruby",
         "punctuation.separator.key-value",
         "punctuation.separator.method.ruby",
-        "punctuation.definition.parameters.ts"
+        "meta.parameters.ts punctuation.definition.parameters",
+        "meta.brace.round.ts"
       ],
       "settings": {
         "fontStyle": "bold",

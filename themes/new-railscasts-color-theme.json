@@ -220,9 +220,7 @@
     {
       "name": "Yellow Bold",
       "scope": [
-        "storage.type.function.arrow.ts",
-        "punctuation.separator.inheritance",
-        "punctuation.terminator.statement.ts"
+        "punctuation.separator.inheritance"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -280,7 +278,8 @@
         "support.type.vendored.property-name.css",
         "punctuation.definition.constant.hashkey.ruby",
         "support.type.property-name.css",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "punctuation.support.type.property-name"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -379,6 +378,9 @@
         "meta.function.inline.other.handlebars support.constant.handlebars",
         "source.js punctuation.definition.block.js",
         "source.js meta.brace.round.js",
+        "storage.type.function.arrow.ts",
+        "keyword.operator.comparison.ts",
+        "punctuation.terminator.statement.ts",
         "meta.tag.js punctuation.section.embedded",
         "punctuation.definition.block.ts",
         "punctuation.section.array.begin.ruby",

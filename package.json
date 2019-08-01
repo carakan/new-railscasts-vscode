@@ -2,7 +2,7 @@
   "name": "new-railscasts",
   "displayName": "New Railscasts",
   "description": "A (new) Railscasts theme for vscode",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "publisher": "carakan",
   "engines": {
     "vscode": "^1.15.0"

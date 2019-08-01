@@ -61,6 +61,7 @@
         "meta.property-value constant",
         "meta.property-value support",
         "punctuation",
+        "source.elixir.embedded.source",
         "string.unquoted.plain.out.yaml",
         "text.html.markdown meta.paragraph.markdown",
         "variable"
@@ -205,10 +206,8 @@
         "meta.tag",
         "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.tag",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.xml",
+        "punctuation.separator.object.elixir",
+        "punctuation.separator.method.elixir",
         "punctuation.section.function.elixir",
         "support.constant.handlebars keyword.control",
         "support.function"

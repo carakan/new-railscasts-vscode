@@ -152,13 +152,7 @@
     {
       "name": "Orange, italic",
       "scope": [
-        "entity.other.attribute-name.class",
-        "entity.other.attribute-name.generic.html",
-        "entity.other.attribute-name.html",
-        "entity.other.attribute-name.js",
-        "entity.other.attribute-name.localname.xml",
-        "entity.other.attribute-name.namespace.xml",
-        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name",
         "punctuation.separator.namespace.xml",
         "storage.type.function.js",
         "text.html.basic entity.other.attribute-name",
@@ -199,7 +193,6 @@
         "meta.function-call",
         "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js",
         "meta.property-value.css",
-        "variable.other.property.ts",
         "meta.selector entity",
         "meta.selector entity",
         "meta.tag support",
@@ -210,7 +203,8 @@
         "punctuation.separator.method.elixir",
         "punctuation.section.function.elixir",
         "support.constant.handlebars keyword.control",
-        "support.function"
+        "support.function",
+        "variable.other.property.ts"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -249,10 +243,7 @@
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
         "punctuation.definition.constant.ruby",
-        "punctuation.separator.key-value.css",
-        "punctuation.separator.key-value.js",
-        "punctuation.separator.key-value.scss",
-        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value",
         "punctuation.support.type.property-name.begin.json.comments",
         "punctuation.support.type.property-name.end.json.comments",
         "variable.other.readwrite.js"
@@ -274,11 +265,11 @@
         "meta.object-literal.key.js",
         "meta.object-literal.key.ts",
         "meta.property-name.css",
-        "support.type.vendored.property-name.css",
         "punctuation.definition.constant.hashkey.ruby",
+        "punctuation.support.type.property-name",
         "support.type.property-name.css",
         "support.type.property-name.json",
-        "punctuation.support.type.property-name"
+        "support.type.vendored.property-name.css"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -321,14 +312,14 @@
       "name": "Purple light bold-italic",
       "scope": [
         "constant.language.boolean",
+        "entity.other.attribute-name.id.css",
+        "keyword.operator.new.ts",
         "keyword.operator.new.ts",
         "variable.language.self",
         "variable.language.this.js",
         "variable.language.this.ts",
-        "keyword.operator.new.ts",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
-        "variable.other.readwrite.module.elixir",
-        "entity.other.attribute-name.id.css"
+        "variable.other.readwrite.module.elixir"
       ],
       "settings": {
         "fontStyle": "bold italic",
@@ -369,34 +360,31 @@
       "scope": [
         "entity.other.attribute-name.class.css punctuation.definition.entity.css",
         "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "expression.embedded.vue punctuation.definition.generic",
+        "keyword.operator.comparison.ts",
         "keyword.operator.other.elixir",
-        "meta.brace.square.ts",
+        "meta.brace.round.ts",
+        "meta.brace.square",
         "meta.function.block.end.handlebars support.constant.handlebars",
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
-        "source.js punctuation.definition.block.js",
-        "source.js meta.brace.round.js",
-        "storage.type.function.arrow.ts",
-        "keyword.operator.comparison.ts",
-        "punctuation.terminator.statement.ts",
+        "meta.parameters.ts punctuation.definition.parameters",
         "meta.tag.js punctuation.section.embedded",
         "punctuation.definition.block.ts",
         "punctuation.section.array.begin.ruby",
         "punctuation.section.array.elixir",
         "punctuation.section.array.end.ruby",
-        "punctuation.section.embedded.begin.erb",
-        "punctuation.section.embedded.begin.ruby",
-        "punctuation.section.embedded.elixir",
-        "punctuation.section.embedded.end.erb",
-        "punctuation.section.embedded.end.ruby",
+        "punctuation.section.embedded",
         "punctuation.section.scope.begin.ruby",
         "punctuation.section.scope.elixir",
         "punctuation.section.scope.end.ruby",
         "punctuation.separator.key-value",
         "punctuation.separator.method.ruby",
-        "meta.parameters.ts punctuation.definition.parameters",
-        "meta.brace.round.ts"
+        "punctuation.terminator.statement.ts",
+        "source.js meta.brace.round.js",
+        "source.js punctuation.definition.block.js",
+        "storage.type.function.arrow.ts"
       ],
       "settings": {
         "fontStyle": "bold",

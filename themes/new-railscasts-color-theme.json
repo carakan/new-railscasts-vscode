@@ -186,7 +186,6 @@
         "entity.name.function",
         "entity.name.tag.css",
         "entity.name.tag.style",
-        "entity.other.attribute-name",
         "entity.other.attribute-name.id",
         "markup.fenced_code.block.markdown",
         "meta.directive.vue",

@@ -174,6 +174,7 @@
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
         "punctuation.definition.heading.markdown",
+        "punctuation.definition.keyword",
         "storage.type.class.ts"
       ],
       "settings": {
@@ -198,6 +199,7 @@
         "meta.tag support",
         "meta.tag",
         "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.separator.key-value.html",
         "punctuation.definition.tag",
         "punctuation.section.function.elixir",
         "punctuation.separator.dictionary.pair",
@@ -267,7 +269,7 @@
         "meta.definition.property.ts variable.object.property.ts",
         "meta.object-literal.key.js",
         "meta.object-literal.key.ts",
-        "meta.property-name.css",
+        "meta.property-name",
         "punctuation.definition.constant.hashkey.ruby",
         "punctuation.support.type.property-name",
         "support.type.property-name.css",
@@ -304,7 +306,8 @@
         "keyword.other.important.css",
         "storage.type.js",
         "storage.type.ts",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "variable.scss"
       ],
       "settings": {
         "fontStyle": "italic",

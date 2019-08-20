@@ -1,7 +1,7 @@
 {
   "name": "new-railscasts",
-  "displayName": "New Railscasts",
-  "description": "A beautifully modern DARK theme with custom terminal colors.",
+  "displayName": "New dark railscasts",
+  "description": "A beautifully modern dark theme with custom terminal colors.",
   "version": "1.0.57",
   "publisher": "carakan",
   "engines": {
@@ -24,7 +24,8 @@
     "dark",
     "theme",
     "Dark Theme",
-    "color-theme"
+    "color-theme",
+    "solarized"
   ],
   "contributes": {
     "themes": [

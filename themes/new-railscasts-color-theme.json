@@ -191,6 +191,7 @@
         "markup.fenced_code.block.markdown",
         "meta.directive.vue",
         "meta.function-call",
+        "meta.function-call variable",
         "meta.function.inline.other.handlebars variable.parameter.handlebars",
         "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js",
         "meta.property-value.css",
@@ -229,6 +230,7 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
+        "js.haml",
         "meta.decorator.js punctuation.decorator.js",
         "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
         "meta.decorator.ts punctuation.decorator.ts",
@@ -369,6 +371,7 @@
         "expression.embedded.vue punctuation.definition.generic",
         "keyword.operator.comparison.ts",
         "keyword.operator.other.elixir",
+        "meta.brace.round.js",
         "meta.brace.round.ts",
         "meta.brace.square",
         "meta.function.block.end.handlebars support.constant.handlebars",
@@ -378,7 +381,7 @@
         "meta.parameters.ts punctuation.definition.parameters",
         "meta.tag.js punctuation.section.embedded",
         "punctuation.definition.array",
-        "punctuation.definition.block.ts",
+        "punctuation.definition.block",
         "punctuation.definition.dictionary",
         "punctuation.definition.entity",
         "punctuation.section.array",
@@ -386,9 +389,8 @@
         "punctuation.section.property-list",
         "punctuation.section.scope",
         "punctuation.separator.method.ruby",
+        "punctuation.separator.variable",
         "punctuation.terminator.statement.ts",
-        "source.js meta.brace.round.js",
-        "source.js punctuation.definition.block.js",
         "storage.type.function.arrow.ts"
       ],
       "settings": {

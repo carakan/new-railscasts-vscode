@@ -199,6 +199,7 @@
         "meta.selector entity",
         "meta.tag support",
         "meta.tag",
+        "punctuation.definition.parameters",
         "punctuation.terminator.rule",
         "punctuation.definition.block.sequence.item.yaml",
         "punctuation.separator.key-value.html",
@@ -230,7 +231,6 @@
     {
       "name": "Yellow, bold-italic",
       "scope": [
-        "js.haml",
         "meta.decorator.js punctuation.decorator.js",
         "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
         "meta.decorator.ts punctuation.decorator.ts",
@@ -378,7 +378,6 @@
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
-        "meta.parameters.ts punctuation.definition.parameters",
         "meta.tag.js punctuation.section.embedded",
         "punctuation.definition.array",
         "punctuation.definition.block",

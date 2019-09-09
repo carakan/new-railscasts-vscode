@@ -385,6 +385,7 @@
         "punctuation.definition.entity",
         "punctuation.section.array",
         "punctuation.section.embedded",
+        "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",
         "punctuation.separator.method.ruby",

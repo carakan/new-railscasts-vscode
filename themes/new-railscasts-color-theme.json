@@ -136,8 +136,8 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#5cbe3b"
+        "fontStyle": "italic bold",
+        "foreground": "#227a04"
       }
     },
     {
@@ -388,7 +388,6 @@
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
-        "meta.tag.js punctuation.section.embedded",
         "punctuation.definition.array",
         "punctuation.definition.block",
         "punctuation.definition.dictionary",

@@ -131,6 +131,16 @@
       }
     },
     {
+      "name": "Green bold",
+      "scope": [
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#5cbe3b"
+      }
+    },
+    {
       "name": "Orange",
       "scope": [
         "constant.language",
@@ -384,7 +394,6 @@
         "punctuation.definition.dictionary",
         "punctuation.definition.entity",
         "punctuation.section.array",
-        "punctuation.section.embedded",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",

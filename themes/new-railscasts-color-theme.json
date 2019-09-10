@@ -134,11 +134,12 @@
     {
       "name": "Green bold",
       "scope": [
-        "punctuation.section.embedded"
+        "punctuation.section.embedded",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#227a04"
+        "foreground": "#1c6603"
       }
     },
     {
@@ -181,7 +182,6 @@
         "entity.name.type.module.elixir",
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
-        "keyword.control.export.ts",
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
         "punctuation.definition.heading.markdown",
@@ -190,6 +190,16 @@
       ],
       "settings": {
         "fontStyle": "bold",
+        "foreground": "#F47454"
+      }
+    },
+    {
+      "name": "Orange, italic bold",
+      "scope": [
+        "keyword.control.export",
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
         "foreground": "#F47454"
       }
     },
@@ -333,8 +343,7 @@
       "scope": [
         "constant.language.boolean",
         "entity.other.attribute-name.id.css",
-        "keyword.operator.new.ts",
-        "keyword.operator.new.ts",
+        "keyword.operator.new",
         "keyword.other.important",
         "variable.language.self",
         "variable.language.this.js",

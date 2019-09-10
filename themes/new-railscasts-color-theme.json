@@ -372,7 +372,8 @@
       "scope": [
         "storage.modifier.ts",
         "constant.language.null",
-        "constant.language.undefined"
+        "constant.language.undefined",
+        "variable.language.arguments"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -393,6 +394,7 @@
         "expression.embedded.vue punctuation.definition.generic",
         "keyword.operator.comparison.ts",
         "keyword.operator.other.elixir",
+        "keyword.operator.spread",
         "meta.brace.round.js",
         "meta.brace.round.ts",
         "meta.brace.square",
@@ -405,6 +407,7 @@
         "punctuation.definition.dictionary",
         "punctuation.definition.entity",
         "punctuation.section.array",
+        "punctuation.definition.binding-pattern.object",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",

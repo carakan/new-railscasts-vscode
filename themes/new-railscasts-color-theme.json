@@ -75,12 +75,7 @@
     {
       "name": "White, bold",
       "scope": [
-        "heading.1.markdown entity.name.section.markdown",
-        "heading.2.markdown entity.name.section.markdown",
-        "heading.3.markdown entity.name.section.markdown",
-        "heading.4.markdown entity.name.section.markdown",
-        "heading.5.markdown entity.name.section.markdown",
-        "heading.6.markdown entity.name.section.markdown",
+        "heading entity.name.section.markdown",
         "markup.bold.markdown"
       ],
       "settings": {
@@ -138,6 +133,7 @@
     {
       "name": "Green bold",
       "scope": [
+        "punctuation.definition.raw.markdown",
         "punctuation.section.embedded",
         "punctuation.definition.template-expression"
       ],
@@ -275,6 +271,8 @@
       "scope": [
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "markup.underline.link",
+        "string.other.link",
         "punctuation.definition.constant.ruby",
         "punctuation.separator.dictionary.key-value",
         "punctuation.separator.key-value",

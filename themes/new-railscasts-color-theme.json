@@ -62,6 +62,7 @@
         "meta.property-value support",
         "punctuation",
         "source.elixir.embedded.source",
+        "support.type.object.module",
         "string.unquoted.plain.out.yaml",
         "text.html.markdown meta.paragraph.markdown",
         "variable",
@@ -89,7 +90,10 @@
     },
     {
       "name": "White, italic",
-      "scope": ["markup.italic.markdown"],
+      "scope": [
+        "markup.italic.markdown",
+        "variable.parameter"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FEF9E1"
@@ -139,7 +143,7 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#1c6603"
+        "foreground": "#238e00"
       }
     },
     {
@@ -316,8 +320,7 @@
         "support",
         "variable.other.property",
         "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
-        "variable.other.readwrite.instance.ruby",
-        "variable.parameter"
+        "variable.other.readwrite.instance.ruby"
       ],
       "settings": {
         "foreground": "#C19CE7"
@@ -359,7 +362,6 @@
     {
       "name": "Purple light bold",
       "scope": [
-        
       ],
       "settings": {
         "fontStyle": "bold",

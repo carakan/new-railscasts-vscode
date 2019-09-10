@@ -359,8 +359,7 @@
     {
       "name": "Purple light bold",
       "scope": [
-        "meta.template.expression.js punctuation.definition.template-expression.begin.js",
-        "meta.template.expression.js punctuation.definition.template-expression.end.js"
+        
       ],
       "settings": {
         "fontStyle": "bold",

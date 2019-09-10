@@ -64,10 +64,11 @@
         "source.elixir.embedded.source",
         "string.unquoted.plain.out.yaml",
         "text.html.markdown meta.paragraph.markdown",
-        "variable"
+        "variable",
+        "variable.other.object"
       ],
       "settings": {
-        "foreground": "#FEF9E1"
+        "foreground": "#f1ecce"
       }
     },
     {
@@ -360,7 +361,9 @@
     {
       "name": "Purple-red light italic",
       "scope": [
-        "storage.modifier.ts"
+        "storage.modifier.ts",
+        "constant.language.null",
+        "constant.language.undefined"
       ],
       "settings": {
         "fontStyle": "italic",

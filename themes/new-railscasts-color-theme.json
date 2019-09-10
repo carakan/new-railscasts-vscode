@@ -184,8 +184,10 @@
         "keyword.control.def.ruby",
         "keyword.control.module.elixir",
         "keyword.control.module.ruby",
+        "markup.fenced_code.block punctuation.definition",
         "punctuation.definition.heading.markdown",
         "punctuation.definition.keyword",
+        "punctuation.definition.list",
         "storage.type.class.ts"
       ],
       "settings": {

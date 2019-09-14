@@ -7,7 +7,8 @@
     "badge.foreground": "#744210",
     "editor.background": "#202020",
     "editor.foreground": "#FEF9E1",
-    "editor.lineHighlightBackground": "#202020",
+    "editor.lineHighlightBackground": "#33282f",
+    "editor.hoverHighlightBackground": "#383850",
     "editorBracketMatch.background": "#212DA39E",
     "editorBracketMatch.border": "#212DA39E",
     "editorGroupHeader.tabsBackground": "#252526",
@@ -47,9 +48,7 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#FEF9E1",
-        "background": "#000000",
-        "lineHighlight": "#333435"
+        "foreground": "#FEF9E1"
       }
     },
     {

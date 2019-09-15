@@ -2,13 +2,14 @@
   "name": "NewRailscasts",
   "type": "dark",
   "colors": {
-    "activityBarBadge.background": "#0065A9",
+    "activityBarBadge.background": "#5433cc",
     "badge.background": "#FEF9E1",
     "badge.foreground": "#744210",
     "editor.background": "#202020",
     "editor.foreground": "#FEF9E1",
-    "editor.lineHighlightBackground": "#33282f",
     "editor.hoverHighlightBackground": "#383850",
+    "editor.lineHighlightBackground": "#2b1d28",
+    "editor.selectionBackground": "#012ea29e",
     "editorBracketMatch.background": "#212DA39E",
     "editorBracketMatch.border": "#212DA39E",
     "editorGroupHeader.tabsBackground": "#252526",
@@ -20,6 +21,7 @@
     "scrollbarSlider.background": "#340E4E",
     "scrollbarSlider.hoverBackground": "#40125F",
     "selection.background": "#072f95",
+    "sideBarSectionHeader.background": "#24121d",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#252526",
     "terminal.ansiBlack": "#212121",
@@ -47,11 +49,6 @@
   },
   "tokenColors": [
     {
-      "settings": {
-        "foreground": "#FEF9E1"
-      }
-    },
-    {
       "name": "White",
       "scope": [
         "markup.underline",
@@ -61,8 +58,8 @@
         "meta.property-value support",
         "punctuation",
         "source.elixir.embedded.source",
-        "support.type.object.module",
         "string.unquoted.plain.out.yaml",
+        "support.type.object.module",
         "text.html.markdown meta.paragraph.markdown",
         "variable",
         "variable.other.object"
@@ -107,11 +104,7 @@
         "punctuation.definition.string",
         "string",
         "string.quoted.double",
-        "string.quoted.double.html",
-        "string.quoted.double.json",
         "string.quoted.single",
-        "string.quoted.single",
-        "string.quoted.single.ruby",
         "string.quoted.template",
         "string.unquoted.plain.out.yaml"
       ],
@@ -197,7 +190,7 @@
     {
       "name": "Orange, italic bold",
       "scope": [
-        "keyword.control.export",
+        "keyword.control.export"
       ],
       "settings": {
         "fontStyle": "italic bold",
@@ -212,8 +205,8 @@
         "entity.other.attribute-name.id",
         "markup.fenced_code.block.markdown",
         "meta.directive.vue",
-        "meta.function-call",
         "meta.function-call variable",
+        "meta.function-call",
         "meta.function.inline.other.handlebars variable.parameter.handlebars",
         "meta.jsx.children.js meta.tag.attributes.js keyword.operator.assignment.js",
         "meta.property-value.css",
@@ -222,16 +215,15 @@
         "meta.tag support",
         "meta.tag",
         "punctuation.definition.parameters",
-        "punctuation.terminator.rule",
-        "punctuation.definition.block.sequence.item.yaml",
-        "punctuation.separator.key-value.html",
         "punctuation.definition.tag",
         "punctuation.section.function.elixir",
         "punctuation.separator.comma",
         "punctuation.separator.dictionary.pair",
+        "punctuation.separator.key-value.html",
         "punctuation.separator.list.comma.css",
         "punctuation.separator.method.elixir",
         "punctuation.separator.object.elixir",
+        "punctuation.terminator.rule",
         "support.constant.handlebars keyword.control",
         "support.function",
         "variable.other.property.ts"
@@ -273,12 +265,12 @@
         "constant.other.symbol.elixir punctuation.definition.constant.elixir",
         "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
         "markup.underline.link",
-        "string.other.link",
         "punctuation.definition.constant.ruby",
         "punctuation.separator.dictionary.key-value",
         "punctuation.separator.key-value",
         "punctuation.support.type.property-name.begin.json.comments",
         "punctuation.support.type.property-name.end.json.comments",
+        "string.other.link",
         "variable.other.readwrite.js"
       ],
       "settings": {
@@ -403,11 +395,13 @@
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
         "punctuation.definition.array",
+        "punctuation.definition.binding-pattern.object",
         "punctuation.definition.block",
+        "punctuation.definition.block.sequence.item",
         "punctuation.definition.dictionary",
         "punctuation.definition.entity",
+        "punctuation.definition.sequence",
         "punctuation.section.array",
-        "punctuation.definition.binding-pattern.object",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",

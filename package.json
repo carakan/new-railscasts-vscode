@@ -2,7 +2,7 @@
   "name": "new-railscasts",
   "displayName": "New dark Railscasts",
   "description": "A beautifully modern dark theme with custom terminal colors.",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "publisher": "carakan",
   "engines": {
     "vscode": "^1.15.0"

@@ -5,7 +5,7 @@
 
 # [NewRailscasts](https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts)
 
-A (new) dark color scheme based on the ancient RailsCasts TextMate theme and its solarized with a beautiful contrast.
+A (new) dark color scheme based on the ancient RailsCasts TextMate theme and its solarized with beautiful contrast.
 
 ## 🚀 Installation
 

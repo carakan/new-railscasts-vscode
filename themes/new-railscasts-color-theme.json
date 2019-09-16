@@ -83,7 +83,8 @@
       "name": "White, italic",
       "scope": [
         "markup.italic.markdown",
-        "variable.parameter"
+        "variable.parameter.js",
+        "variable.parameter.ts"
       ],
       "settings": {
         "fontStyle": "italic",

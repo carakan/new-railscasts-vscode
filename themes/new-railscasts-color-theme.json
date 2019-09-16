@@ -51,9 +51,11 @@
     {
       "name": "White",
       "scope": [
+        "entity.other.attribute-value.handlebars variable.parameter.handlebars",
         "markup.underline",
         "meta.brace.round",
         "meta.jsx.children",
+        "meta.object.member entity.name.function",
         "meta.property-value constant",
         "meta.property-value support",
         "punctuation",
@@ -271,8 +273,7 @@
         "punctuation.separator.key-value",
         "punctuation.support.type.property-name.begin.json.comments",
         "punctuation.support.type.property-name.end.json.comments",
-        "string.other.link",
-        "variable.other.readwrite.js"
+        "string.other.link"
       ],
       "settings": {
         "foreground": "#6D9CBE"
@@ -363,9 +364,9 @@
     {
       "name": "Purple-red light italic",
       "scope": [
-        "storage.modifier.ts",
         "constant.language.null",
         "constant.language.undefined",
+        "storage.modifier.ts",
         "variable.language.arguments"
       ],
       "settings": {
@@ -408,7 +409,7 @@
         "punctuation.section.scope",
         "punctuation.separator.method.ruby",
         "punctuation.separator.variable",
-        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement",
         "storage.type.function.arrow.ts"
       ],
       "settings": {

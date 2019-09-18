@@ -403,14 +403,17 @@
         "punctuation.definition.dictionary",
         "punctuation.definition.entity",
         "punctuation.definition.sequence",
+        "punctuation.definition.variable",
         "punctuation.section.array",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",
         "punctuation.separator.method.ruby",
         "punctuation.separator.variable",
+        "punctuation.terminator.expression",
         "punctuation.terminator.statement",
-        "storage.type.function.arrow.ts"
+        "storage.type.function.arrow.ts",
+        "text.html.php punctuation.section.embedded"
       ],
       "settings": {
         "fontStyle": "bold",

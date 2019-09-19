@@ -129,7 +129,7 @@
       "name": "Green bold",
       "scope": [
         "punctuation.definition.raw.markdown",
-        "punctuation.section.embedded",
+        "string punctuation.section.embedded",
         "punctuation.definition.template-expression"
       ],
       "settings": {
@@ -405,6 +405,7 @@
         "punctuation.definition.sequence",
         "punctuation.definition.variable",
         "punctuation.section.array",
+        "punctuation.section.embedded",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",
@@ -412,8 +413,7 @@
         "punctuation.separator.variable",
         "punctuation.terminator.expression",
         "punctuation.terminator.statement",
-        "storage.type.function.arrow.ts",
-        "text.html.php punctuation.section.embedded"
+        "storage.type.function.arrow.ts"
       ],
       "settings": {
         "fontStyle": "bold",

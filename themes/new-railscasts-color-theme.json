@@ -159,6 +159,7 @@
       "name": "Orange, italic",
       "scope": [
         "entity.name.type.class.ruby",
+        "entity.name.type.module.elixir",
         "entity.name.type.module.ruby",
         "entity.other.attribute-name",
         "entity.other.attribute-name.handlebars variable.parameter.handlebars",
@@ -175,7 +176,6 @@
     {
       "name": "Orange, bold",
       "scope": [
-        "entity.name.type.module.elixir",
         "entity.name.type.class.ruby entity.other.inherited-class.ruby",
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",

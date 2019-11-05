@@ -141,7 +141,6 @@
       "name": "Orange",
       "scope": [
         "constant.language",
-        "entity.name.type.class.ruby",
         "keyword",
         "meta.class.ts",
         "punctuation.definition.tag.haml",
@@ -159,6 +158,8 @@
     {
       "name": "Orange, italic",
       "scope": [
+        "entity.name.type.class.ruby",
+        "entity.name.type.module.ruby",
         "entity.other.attribute-name",
         "entity.other.attribute-name.handlebars variable.parameter.handlebars",
         "punctuation.separator.namespace.xml",
@@ -175,6 +176,7 @@
       "name": "Orange, bold",
       "scope": [
         "entity.name.type.module.elixir",
+        "entity.name.type.class.ruby entity.other.inherited-class.ruby",
         "keyword.control.class.ruby",
         "keyword.control.def.ruby",
         "keyword.control.module.elixir",

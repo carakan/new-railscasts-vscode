@@ -54,6 +54,7 @@
         "entity.other.attribute-value.handlebars variable.parameter.handlebars",
         "markup.underline",
         "meta.brace.round",
+        "meta.function-call.arguments",
         "meta.jsx.children",
         "meta.object.member entity.name.function",
         "meta.property-value constant",
@@ -340,10 +341,13 @@
       "name": "Purple light bold-italic",
       "scope": [
         "constant.language.boolean",
+        "entity.name.function.decorator",
         "entity.other.attribute-name.id.css",
         "keyword.operator.new",
         "keyword.other.important",
+        "punctuation.definition.decorator",
         "variable.language.self",
+        "variable.language.special.self",
         "variable.language.this.js",
         "variable.language.this.ts",
         "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir",
@@ -356,8 +360,7 @@
     },
     {
       "name": "Purple light bold",
-      "scope": [
-      ],
+      "scope": [],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#C19CE7"
@@ -378,7 +381,12 @@
     },
     {
       "name": "Brown, italic",
-      "scope": ["comment", "punctuation.definition.comment", "punctuation.section.comment.haml"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.section.comment.haml",
+        "string.quoted.docstring.multi"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#BC7F23"
@@ -389,6 +397,7 @@
       "scope": [
         "expression.embedded.vue punctuation.definition.generic",
         "keyword.operator.comparison.ts",
+        "keyword.operator.logical",
         "keyword.operator.other.elixir",
         "keyword.operator.spread",
         "meta.brace.round.js",
@@ -398,6 +407,7 @@
         "meta.function.block.start.handlebars support.constant.handlebars",
         "meta.function.inline.else.handlebars support.constant.handlebars",
         "meta.function.inline.other.handlebars support.constant.handlebars",
+        "punctuation.definition.arguments",
         "punctuation.definition.array",
         "punctuation.definition.binding-pattern.object",
         "punctuation.definition.block",
@@ -408,9 +418,13 @@
         "punctuation.definition.variable",
         "punctuation.section.array",
         "punctuation.section.embedded",
+        "punctuation.section.function.begin",
         "punctuation.section.function.ruby",
         "punctuation.section.property-list",
         "punctuation.section.scope",
+        "punctuation.separator.arguments",
+        "punctuation.separator.colon",
+        "punctuation.separator.period",
         "punctuation.separator.method.ruby",
         "punctuation.separator.variable",
         "punctuation.terminator.expression",
